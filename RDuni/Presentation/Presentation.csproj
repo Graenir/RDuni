@@ -13,4 +13,9 @@
     <Folder Include="ViewModels\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Application\Application.csproj" />
+    <ProjectReference Include="..\Crosscutting\Crosscutting.csproj" />
+  </ItemGroup>
+
 </Project>
